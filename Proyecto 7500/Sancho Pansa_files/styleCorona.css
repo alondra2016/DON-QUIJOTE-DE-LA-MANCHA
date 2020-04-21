@@ -1,0 +1,101 @@
+.colWidth12-12 {
+    width:100%;
+}
+.colWidth11-12 {
+    width:91.7%;
+}
+.colWidth10-12 {
+    width:83.3%;
+}
+.colWidth9-12 {
+    width:75%;
+}
+.colWidth8-12 {
+    width:66.7%;
+}
+.colWidth7-12 {
+    width:91.7%;
+}
+.colWidth6-12 {
+
+    width:50%;
+}
+.colWidth5-12 {
+    width:41.7%;
+}
+.colWidth4-12 {
+    width:33.3%;
+}
+.colWidth3-12 {
+    width:25%;
+}
+.colWidth2-12 {
+    width:16.7%;
+}
+.colWidth1-12 {
+    width:08.3%;
+}
+.hi50 {height:50px;}
+.hi300 {height:300px;}
+.hi500 {height:500px;}
+.hi700 {height:700px;}
+.leftCol{float:left;}
+.rightCol{float:right;}
+.flexCentered {
+    display: flex ;
+flex-direction: row ;
+flex-wrap: wrap ;
+justify-content: space-around ;
+align-items: center ;
+align-content: center ;
+}
+#navbar {
+     background-color:rgba(0,0,0,.7);
+}
+a  {
+   color:white;
+    text-decoration:none;
+}
+<html>
+<head>
+<title>Barra de navegación horizontal con listas y estilos CSS</title>
+
+<style type="text/css">
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+   </style>
+</head>
+
+<body>
+
+
+<div id="navegador">
+<ul>
+<li><a href="quijote.html">El Quijote</a></li>
+<li><a href="sancho.html">Sancho</a></li>
+<li><a href="dulcinea.html">Dulcinea</a></li>
+<li><a href="cervantes.html">Miguel De Cervantes</a></li>
+</ul>
+</div>
+
+</body>
+</html>
+ .foto-personajes
